@@ -44,7 +44,7 @@ The information contained herein is provided in good faith and is believed by th
 author be liable for any injuries or damages resulting from the use of this information howsoever caused.
 
 This project is distributed under a Creative Commons Attribution + Share-alike (BY-SA) licence.
-Please refer to section 5 of the licence for the “Disclaimer of Warranties and Limitation of Liability”.
+Please refer to section 5 of the licence for the "Disclaimer of Warranties and Limitation of Liability".
 
 Enjoy!
 

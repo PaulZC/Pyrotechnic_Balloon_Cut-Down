@@ -86,7 +86,7 @@ If you decide to omit the MPL3115A2, you can omit C1, C2, R2 and R4 too.
 Solder the remaining surface mount components by hand. There are many good surface mount soldering guides available on the web, including
 [this one](https://www.youtube.com/watch?v=QzoPxvIM2qE).
 
-Use a cotton bud (q-tip) dipped in Isopropyl Alcohol (IPA / Propanol / rubbing alcohol) to remove any flux residue.
+Use a cotton swab dipped in Isopropyl Alcohol (IPA / Propanol / rubbing alcohol) to remove any flux residue.
 
 All being well, your PCB should look like this:
 
@@ -135,7 +135,7 @@ cable in the UART Settings, then click "Open Port".
 Ensure the "Settings" vertical tab is selected.
 
 Click on the "Module Info" horizontal tab. Click on "Discover Module". Wait for all of the module information to be collected. Make a note of the eight digit
-eRIC serial number; you will need this to be able to trigger the cut-down. Ideally, print the serial number onto a label and stick it to the eRIC.
+eRIC serial number; you will need this to be able to trigger the cut-down. Ideally, print the serial number onto a label and stick it onto the eRIC.
 
 ![easyRadio_1.JPG](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/img/easyRadio_1.JPG)
 
@@ -172,7 +172,7 @@ contains example code which will read and transmit the pressure and temperature.
 ### The Small Print
 
 This project is distributed under a Creative Commons Attribution + Share-alike (BY-SA) licence.
-Please refer to section 5 of the licence for the “Disclaimer of Warranties and Limitation of Liability”.
+Please refer to section 5 of the licence for the "Disclaimer of Warranties and Limitation of Liability".
 
 Enjoy!
 

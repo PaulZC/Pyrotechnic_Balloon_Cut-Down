@@ -85,7 +85,7 @@ are vertical with respect to the circuit board, then tighten the screw using a s
 
 ### Connect the Cutter
 
-Cut the igniter wires short. Part the wires and remove 5mm of insulation from the end of each wire. Poke the bare wire ends into the green terminal block
+Cut the igniter wires short. Part the wires and remove 5mm of insulation from the end of each wire. Push the bare wire ends into the green terminal block
 on the cut-down circuit board. You do not need to press the orange levers on the terminal block while you do this. The levers only need to be pressed when
 releasing the wires.
 

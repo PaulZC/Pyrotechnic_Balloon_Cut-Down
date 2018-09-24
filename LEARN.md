@@ -36,7 +36,7 @@ The heart of the Cut-Down Device is the eRIC4 or eRIC9 [easyRadio Integrated Con
 ![Learn_1.JPG](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/img/Learn_1.JPG)
 
 Either an eRIC4 or an eRIC9 can be installed. The eRIC4 operates at 402-470 MHz for Europe, APAC and China. The eRIC9 operates at 804-940 MHz for Europe,
-North & South America, India and China. Solder the "FREQ" split pad to select the eRIC9 915 MHz band.
+North & South America, India and China. Solder the _FREQ_ split pad to select the eRIC9 915 MHz band.
 
 Each eRIC has a unique serial number. The custom code running on the eRIC will trigger the cut-down when it receives a data packet containing that serial number.
 
@@ -97,8 +97,8 @@ go high if:
 - eRIC Pin18 is high
 - eRIC Pin19 is low
 
-The Input/Ouput pins on most microcontrollers go into a floating (high impedance) state during reset and can only be configured as outputs once the
-embedded code starts to execute. The 7402 NOR gate ensures that FIRE does not accidentally go high during that period.
+The Input/Output pins on most microcontrollers go into a floating (high impedance) state during reset and can only be configured as outputs once the
+embedded code starts to execute. The 7402 NOR gate ensures that _FIRE_ does not accidentally go high during that period.
 
 ### Reset supervisor
 
@@ -124,7 +124,7 @@ D1 and D2 provide protection for the batteries and USB power pin from each other
 
 ![Learn_6.JPG](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/img/Learn_6.JPG)
 
-The eRIC TxD, RxD, CTS and RTS are connected to 0.1" pads on the edge of the circuit board. The order of these pads matches the order of the pins of an FTDI
+The eRIC TxD, RxD, CTS and RTS pins are connected to 0.1" pads on the edge of the circuit board. The order of these pads matches the order of the pins of an FTDI
 TTL-232R-3V3 USB to TTL serial cable. The eRIC can be reprogrammed via the FTDI cable.
 
 Two extra pads are connected to the eRIC bootloader pins (Pin11 and Pin12). The eRIC will enter bootloader mode if these pads are shorted together on reset
@@ -152,15 +152,23 @@ The total weight of the assembled cut-down is 76 grams. This comprises:
 
 ### How long will the batteries last?
 
-With the eRIC power saving set to 2, the average current draw at 4.5V is 4.6mA. When powered by three Energiser® Ultimate Lithium AAA batteries, the batteries
+With the eRIC power saving set to 2, the average current draw is 4.6mA at 4.5V. When powered by three Energiser® Ultimate Lithium AAA batteries, the batteries
 should last approximately 10 days. This ignores the current drawn by the electric match when the cut-down is activated.
 
 ![Current_Draw.JPG](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/img/Current_Draw.JPG)
 
+### Have you tested it?
+
+Yes. The cutter has been used successfully to sever size 4N (2.4mm) braided nylon cord with test loads of 2kg and 100g.
+
+![Cutter_Test_2kg_1.JPG](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/img/Cutter_Test_2kg_1.JPG)
+
+![Cutter_Test_100g.JPG](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/img/Cutter_Test_100g.JPG)
+
 ### The Small Print
 
 This project is distributed under a Creative Commons Attribution + Share-alike (BY-SA) licence.
-Please refer to section 5 of the licence for the “Disclaimer of Warranties and Limitation of Liability”.
+Please refer to section 5 of the licence for the "Disclaimer of Warranties and Limitation of Liability".
 
 Enjoy!
 
