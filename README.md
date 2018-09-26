@@ -33,7 +33,7 @@ The [eRIC](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/tree/master/eR
 
 The [Drawings](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/tree/master/Drawings) directory contains the drawings for the mechanical parts.
 
-## Disclaimer
+### Disclaimer
 
 As this project involves the use of a very small quantity of smokeless gunpowder, the information contained herein should only be used by responsible adults
 in full compliance with local laws and regulations regarding the purchase, transport, storage and use of smokeless powder. Follow the manufacturer's
@@ -42,6 +42,8 @@ project out of the reach of children. Proceed entirely at your own risk.
 
 The information contained herein is provided in good faith and is believed by the author to be both accurate and safe, but in no event shall the
 author be liable for any injuries or damages resulting from the use of this information howsoever caused.
+
+### License
 
 This project is distributed under a Creative Commons Attribution + Share-alike (BY-SA) licence.
 Please refer to section 5 of the licence for the "Disclaimer of Warranties and Limitation of Liability".

@@ -29,6 +29,10 @@ The [Eagle](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/tree/master/E
 
 The [eRIC](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/tree/master/eRIC) directory contains the code for the eRIC integrated controller.
 
+See [CUTTER.md](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/CUTTER.md) for details on how to assemble the mechanical parts.
+
+The [Drawings](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/tree/master/Drawings) directory contains the drawings for the mechanical parts.
+
 ### eRIC
 
 The heart of the Cut-Down Device is the eRIC4 or eRIC9 [easyRadio Integrated Controller](http://www.lprs.co.uk/products/easyradio-ism-modules/eric-soc-rf-modules.html).
@@ -165,7 +169,7 @@ Yes. The cutter has been used successfully to sever size 4N (2.4mm) braided nylo
 
 ![Cutter_Test_100g.JPG](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/img/Cutter_Test_100g.JPG)
 
-### The Small Print
+### License
 
 This project is distributed under a Creative Commons Attribution + Share-alike (BY-SA) licence.
 Please refer to section 5 of the licence for the "Disclaimer of Warranties and Limitation of Liability".

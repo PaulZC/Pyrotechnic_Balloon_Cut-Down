@@ -169,7 +169,7 @@ You can now make alterations to the code, rebuild the project to produce a new .
 If you want to make use of the MPL3115A2 pressure sensor, eRIC_CutDown_Tx_Pressure_and_Temperature.zip in the [eRIC folder](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/tree/master/eRIC)
 contains example code which will read and transmit the pressure and temperature.
 
-### The Small Print
+### License
 
 This project is distributed under a Creative Commons Attribution + Share-alike (BY-SA) licence.
 Please refer to section 5 of the licence for the "Disclaimer of Warranties and Limitation of Liability".
