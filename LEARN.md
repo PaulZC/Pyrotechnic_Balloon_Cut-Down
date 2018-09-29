@@ -148,11 +148,16 @@ The horizontal antenna orientation is important if the cut-down is positioned di
 
 ### How much does it weigh?
 
-The total weight of the assembled cut-down is 76 grams. This comprises:
-- Assembled cutter: 27.3g
-- Energiser® Ultimate Lithium AAA batteries: 22.8g
-- Assembled circuit board: 19.2g
-- Antenna: 6.5g
+![Weight.JPG](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/img/Weight.JPG)
+
+The total weight of the assembled cut-down is 75.4 grams. This comprises:
+- Assembled cutter: 27.2g
+- Energiser® Ultimate Lithium AAA batteries: 22.7g
+- Assembled circuit board: 19.1g
+- Antenna: 6.4g
+
+### Which AAA batteries should I use?
+Energiser® Ultimate Lithium batteries. These are rated down to -40°C but tests I’ve done (using dry ice) show that they continue to work much colder than that.
 
 ### How long will the batteries last?
 
@@ -160,6 +165,10 @@ With the eRIC power saving set to 2, the average current draw is 4.6mA at 4.5V. 
 should last approximately 10 days. This ignores the current drawn by the electric match when the cut-down is activated.
 
 ![Current_Draw.JPG](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/img/Current_Draw.JPG)
+
+### Do I need to be careful around the battery clips?
+
+Yes! The clips are of course conductive. If you place the circuit board battery-side down on a conductive surface **BAD THINGS WILL HAPPEN!**
 
 ### Have you tested it?
 
