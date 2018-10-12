@@ -143,8 +143,8 @@ Place a jumper link to link the two "Boot" header pins together; then press the 
 continuously. If LED2 is flashing once per second instead, ensure you have the jumper link installed correctly. If required, press the Reset button to restart
 the eRIC.
 
-Click on the "Firmware Upgrades" horizontal tab. Click on "Open Firmware File" and browse to the eRIC4_Cut-Down.hex file which you will find in the
-[eRIC folder](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/tree/master/eRIC). Select eRIC9_Cut-Down.hex instead if you are using the 868 / 915MHz
+Click on the "Firmware Upgrades" horizontal tab. Click on "Open Firmware File" and browse to the eRIC4_Pyro_Cut-Down.hex file which you will find in the
+[eRIC folder](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/tree/master/eRIC). Select eRIC9_Pyro_Cut-Down.hex instead if you are using the 868 / 915MHz
 eRIC9.
 
 Leave "Enable Code Protect" selected and then click "Upgrade".
@@ -160,13 +160,13 @@ Disconnect the FTDI USB connector from your computer, then remove the header str
 If you want to alter the programming of the eRIC, you will need to:
 - Follow the instructions in http://www.lprs.co.uk/assets/files/Custom%20programming%20eRIC.zip
 - Install the Texas Instruments Code Composer Studio
-- Copy and unzip the eRIC_CutDown.zip from the [eRIC folder](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/tree/master/eRIC) into the Code Composer workspace directory
+- Copy and unzip the eRIC_Pyro_CutDown.zip from the [eRIC folder](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/tree/master/eRIC) into the Code Composer workspace directory
 - Right-click in the Project Explorer window, select "Import" then "CCS Projects"
 - Select the folder which you unzipped eRIC_CutDown into
 
 You can now make alterations to the code, rebuild the project to produce a new .hex file and then use the easyRadio Companion to programme the eRIC with the new code.
 
-If you want to make use of the MPL3115A2 pressure sensor, eRIC_CutDown_Tx_Pressure_and_Temperature.zip in the [eRIC folder](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/tree/master/eRIC)
+If you want to make use of the MPL3115A2 pressure sensor, eRIC_Pyro_CutDown_Tx_Pressure_and_Temperature.zip in the [eRIC folder](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/tree/master/eRIC)
 contains example code which will read and transmit the pressure and temperature.
 
 ### License

@@ -157,7 +157,7 @@ The total weight of the assembled cut-down is 75.4 grams. This comprises:
 - Antenna: 6.4g
 
 ### Which AAA batteries should I use?
-Energiser® Ultimate Lithium batteries. These are rated down to -40°C but tests I’ve done (using dry ice) show that they continue to work much colder than that.
+Energiser® Ultimate Lithium batteries. These are rated down to -40°C but tests I've done (using dry ice) show that they continue to work much colder than that.
 
 ### How long will the batteries last?
 
