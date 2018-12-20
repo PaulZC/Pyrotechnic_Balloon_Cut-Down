@@ -16,7 +16,7 @@ Designed to be triggered by the [Iridium Beacon Radio Board](https://github.com/
 the cut-down will be triggered when the eRIC receives its own (unique) serial number on the chosen channel. The number of cut-downs that could be
 triggered by a single Iridium Beacon is essentially unlimited.
 
-**New for V2: The Cut-Down now includes a u-blox CAM-M8Q GNSS (GPS) receiver and can be configured to trigger at a pre-set altitude.**
+**New for V2: the cut-down now includes a u-blox CAM-M8Q GNSS (GPS) receiver and can be configured to trigger at a pre-set altitude.**
 
 The cutter has been designed to sever size 4N (2.4mm) braided nylon cord.
 
@@ -65,21 +65,21 @@ Multi-CB can also provide you with a solder paste (SMD) stencil for the PCB. My 
 Secure the blank PCB onto a flat work surface by locating it between two engineer's squares. I use a sheet of toughened glass
 as the work surface as it is both very flat and easy to clean.
 
-![V2_Assembly_2](https://github.com/PaulZC/Balloon_Cut-Down_Device/blob/master/img/V2_Assembly_2.JPG)
+![V2_Assembly_2](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/img/V2_Assembly_2.JPG)
 
 Use the two round fiducials to line up the stencil with the PCB. Secure the stencil with tape.
 
-![V2_Assembly_3](https://github.com/PaulZC/Balloon_Cut-Down_Device/blob/master/img/V2_Assembly_3.JPG)
+![V2_Assembly_3](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/img/V2_Assembly_3.JPG)
 
 Apply solder paste close to the component cut-outs and then scrape the paste over the stencil using a knife blade
 or a similar straight edge. Take appropriate safety precautions when working with solder paste - particularly if you are using
 tin-lead solder instead of lead-free.
 
-![V2_Assembly_4](https://github.com/PaulZC/Balloon_Cut-Down_Device/blob/master/img/V2_Assembly_4.JPG)
+![V2_Assembly_4](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/img/V2_Assembly_4.JPG)
 
-![V2_Assembly_5](https://github.com/PaulZC/Balloon_Cut-Down_Device/blob/master/img/V2_Assembly_5.JPG)
+![V2_Assembly_5](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/img/V2_Assembly_5.JPG)
 
-![V2_Assembly_6](https://github.com/PaulZC/Balloon_Cut-Down_Device/blob/master/img/V2_Assembly_6.JPG)
+![V2_Assembly_6](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/img/V2_Assembly_6.JPG)
 
 ### Position the surface mount components
 
