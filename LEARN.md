@@ -13,7 +13,7 @@ Designed to be triggered by the [Iridium Beacon Radio Board](https://github.com/
 the cut-down will be triggered when the eRIC receives its own (unique) serial number on the chosen channel. The number of cut-downs that could be
 triggered by a single Iridium Beacon is essentially unlimited.
 
-**New for V2: The Cut-Down now includes a u-blox CAM-M8Q GNSS (GPS) receiver and can be configured to trigger at a pre-set altitude.**
+**New for V2: the cut-down now includes a u-blox CAM-M8Q GNSS (GPS) receiver and can be configured to trigger at a pre-set altitude.**
 
 The cutter has been designed to sever size 4N (2.4mm) braided nylon cord.
 
@@ -73,7 +73,7 @@ If you are using the [Iridium Beacon](https://github.com/PaulZC/Iridium_9603_Bea
 
 ![V2_Learn_2.JPG](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/img/V2_Learn_2.JPG)
 
-The cut-down can be equipped with a u-blox CAM-M8Q GNSS (GPS) receiver which provides accurate altitude data.
+The cut-down is equipped with a u-blox CAM-M8Q GNSS (GPS) receiver which provides accurate altitude data.
 To save power, the CAM-M8Q is configured to use only GPS satellites and ignores GLONASS, Galileo and BeiDou satellites.
 Once the receiver has established a fix, the CAM-M8Q is put into low power mode to further extend the battery life.
 The CAM-M8Q can be disabled by setting the altitude limit to 99km.
@@ -128,6 +128,7 @@ D1 and D2 provide protection for the batteries and USB power pin from each other
 ### I/O pins
 
 ![V2_Learn_6.JPG](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/img/V2_Learn_6.JPG)
+![V2_Learn_6a.JPG](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/img/V2_Learn_6a.JPG)
 
 The eRIC TxD, RxD, CTS and RTS pins are connected to 0.1" pads on the edge of the circuit board. The order of these pads matches the order of the pins of an FTDI
 TTL-232R-3V3 USB to TTL serial cable. The eRIC can be reprogrammed via the FTDI cable.
@@ -217,6 +218,17 @@ Send:
 - _[RADIO=12345678299]_
 
 The altitude limit can be re-enabled by setting it to anything other than 99km.
+
+## The LED flashes when I connect the batteries or reset the eRIC. Why?
+
+When the batteries are connected or the reset switch is pressed, the cut-down goes into normal operation. The LED flashes to indicate the altitude limit. The default is
+33km so the LED will flash three times, pause, then flash three times again.
+
+A zero is indicated by a long flash. Two flashes followed by a long flash indicates an altitude limit of 20km.
+A long flash followed by one flash indicates a limit of 1km.
+
+To test that the CAM-M8Q is operating correctly, try setting an altitude limit of 0km (indicated by two long flashes).
+The PYRO output and LED1 will be enabled as soon as a GPS signal is acquired (unless you are below sea level!).
 
 ## How much does it weigh?
 

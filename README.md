@@ -11,7 +11,7 @@ Designed to be triggered by the [Iridium Beacon Radio Board](https://github.com/
 the cut-down will be triggered when the eRIC receives its own (unique) serial number on the chosen channel. The number of cut-downs that could be
 triggered by a single Iridium Beacon is essentially unlimited.
 
-**New for V2: The Cut-Down now includes a u-blox CAM-M8Q GNSS (GPS) receiver and can be configured to trigger at a pre-set altitude.**
+**New for V2: the cut-down now includes a u-blox CAM-M8Q GNSS (GPS) receiver and can be configured to trigger at a pre-set altitude.**
 
 See [How do I configure the altitude limit](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/LEARN.md#how-do-i-configure-the-altitude-limit)
 for details on how to set the altitude limit using the I/O pins or via radio.
