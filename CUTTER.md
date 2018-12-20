@@ -89,8 +89,6 @@ Cut the igniter wires short. Part the wires and remove 5mm of insulation from th
 on the cut-down circuit board. You do not need to press the orange levers on the terminal block while you do this. The levers only need to be pressed when
 releasing the wires.
 
-![Pyro_Cut-Down_1.JPG](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/img/Pyro_Cut-Down_1.JPG)
-
 Your cutter is ready for use.
 
 You may need to melt and shape the cut end of the nylon cord so it will slide easily through the cord holes.

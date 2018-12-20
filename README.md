@@ -2,7 +2,7 @@
 
 A lightweight wireless cut-down device for use on high altitude balloons.
 
-![Pyro_Cut-Down_1.JPG](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/img/Pyro_Cut-Down_1.JPG)
+![Pyro_Cut-Down_V2.JPG](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/img/Pyro_Cut-Down_V2.JPG)
 
 ![Cutter_Test_2kg.gif](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/img/Cutter_Test_2kg.gif)
 
@@ -10,6 +10,11 @@ Designed to be triggered by the [Iridium Beacon Radio Board](https://github.com/
 [LPRS eRIC4 or eRIC9 integrated radio module](http://www.lprs.co.uk/products/easyradio-ism-modules/eric-soc-rf-modules.html),
 the cut-down will be triggered when the eRIC receives its own (unique) serial number on the chosen channel. The number of cut-downs that could be
 triggered by a single Iridium Beacon is essentially unlimited.
+
+**New for V2: The Cut-Down now includes a u-blox CAM-M8Q GNSS (GPS) receiver and can be configured to trigger at a pre-set altitude.**
+
+See [How do I configure the altitude limit](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/LEARN.md#how-do-i-configure-the-altitude-limit)
+for details on how to set the altitude limit using the I/O pins or via radio.
 
 The cutter has been designed to reliably sever size 4N (2.4mm) braided nylon cord.
 
@@ -24,7 +29,7 @@ See [ASSEMBLY.md](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/ma
 
 See [CUTTER.md](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/CUTTER.md) for details on how to assemble the mechanical parts.
 
-See [Pyro_Cut-Down_V1.pdf](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/Pyro_Cut-Down_V1.pdf) for the schematic,
+See [Pyro_Cut-Down_V2.pdf](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/blob/master/Pyro_Cut-Down_V2.pdf) for the schematic,
 layout and Bill Of Materials.
 
 The [Eagle](https://github.com/PaulZC/Pyrotechnic_Balloon_Cut-Down/tree/master/Eagle) directory contains the schematic and pcb design files.
